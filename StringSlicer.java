@@ -19,7 +19,9 @@ public class StringSlicer {
         for (int i = 0; i < userInput.length(); i++) {
             charInput.add(userInput.charAt(i));
         }
-        
+
+        scnr.close();
+
         return charInput;       
     }
 
